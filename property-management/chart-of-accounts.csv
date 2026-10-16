@@ -1,0 +1,36 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,The company's own money: fees earned and company bills
+1020,Trust checking,Asset,Bank,"Owners' rent, tenants' security deposits and reserves. Never the company's money"
+1100,Fees receivable,Asset,Receivable,Fees earned and not yet moved from trust at month end
+1200,Prepaid expenses,Asset,Other current asset,Insurance and software paid ahead
+1500,Office equipment and vehicles,Asset,Fixed asset,
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,Company bills only. Owner repairs are paid from trust against the owner's balance
+2100,Tenant security deposits held,Liability,Trust liability,Owed to tenants until the lease ends and deductions are worked out. Never income
+2200,Owner funds held,Liability,Trust liability,"Parent line. Rent collected for owners minus their repairs, fees and distributions"
+2210,Owner funds held: Owner A,Liability,Trust liability,"One child per owner. Rent credits it; repairs, the management fee and owner distributions debit it"
+2220,Owner funds held: Owner B,Liability,Trust liability,Rename to the owner or property
+2300,Prepaid rent,Liability,Trust liability,Rent received before the month it covers
+2400,Owner reserves held,Liability,Trust liability,Optional. Repair reserves an owner leaves in trust
+2500,Payroll liabilities,Liability,Current liability,
+2600,Business credit card,Liability,Credit card,Company spending only
+3010,Members' capital,Equity,Company equity,The management company's own owners
+3020,Members' draws,Equity,Company equity,Draws by the company's owners. Owner distributions to property owners go through 2210 and 2220 instead
+3900,Retained earnings,Equity,Company equity,
+4010,Management fees,Income,Fee income,"Earned when rent is collected, moved from trust to operating once a month"
+4020,Leasing fees,Income,Fee income,Charged to the owner when a new lease is signed
+4030,Lease renewal fees,Income,Fee income,
+4040,Maintenance markup,Income,Fee income,Only if your management agreements allow it
+4050,Late fee share,Income,Fee income,Only the part the agreement gives the manager; the rest belongs to the owner
+5010,Maintenance staff wages,Cost of sales,Direct costs,In-house technicians whose time is billed to owners
+5020,Maintenance materials,Cost of sales,Direct costs,Materials bought for jobs billed to owners
+6010,Office wages,Expense,Personnel,
+6020,Payroll taxes and benefits,Expense,Personnel,
+6100,Office rent,Expense,Occupancy,
+6200,Property management software,Expense,Operations,
+6300,Licensing and education,Expense,Professional,Broker or manager license and required courses
+6400,Insurance,Expense,Professional,"Errors and omissions, general liability"
+6500,Vehicle costs,Expense,Operations,
+6600,Advertising vacancies,Expense,Sales and marketing,Only if the company pays; owner-paid listings come out of the owner's balance
+6700,Bank fees,Expense,Fees,Operating account fees. Trust account fees are not paid with owners' money unless the agreement says so
+6800,Depreciation,Expense,Administrative,

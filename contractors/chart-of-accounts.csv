@@ -1,0 +1,40 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,Customer payments and most bills
+1020,Payroll checking,Asset,Bank,Optional. Funded from operating before each pay run
+1100,Accounts receivable,Asset,Receivable,"Progress bills due now, net of retainage"
+1110,Retainage receivable,Asset,Receivable,"Part of each progress bill the customer holds back until closeout, often 5% or 10%"
+1200,Costs and estimated earnings in excess of billings,Asset,Other current asset,Underbillings from the month-end WIP schedule: earned but not yet billed
+1300,Prepaid insurance,Asset,Other current asset,"Liability, auto and bonding premiums paid ahead"
+1500,Trucks and vehicles,Asset,Fixed asset,At cost
+1510,Equipment,Asset,Fixed asset,Owned equipment at cost; rented equipment is a job cost instead
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,"Supplier and sub invoices, net of retainage held"
+2020,Retainage payable,Liability,Current liability,"Amounts held back from subs, paid when the job closes"
+2100,Billings in excess of costs and estimated earnings,Liability,Current liability,Overbillings from the month-end WIP schedule: billed but not yet earned
+2200,Sales tax payable,Liability,Current liability,Where your state taxes materials or services
+2300,Payroll liabilities,Liability,Current liability,"Withholdings and employer taxes, from the payroll register"
+2400,Business credit card,Liability,Credit card,"The payment from checking is a transfer, not an expense"
+2500,Equipment loans,Liability,Long-term liability,Split each payment between this line and interest expense
+3010,Owner capital,Equity,Owner equity,
+3020,Owner draws,Equity,Owner equity,
+3900,Retained earnings,Equity,Owner equity,
+4010,Contract revenue,Income,Revenue,"Progress bills on contracts, including retainage. The WIP adjustment for over and under billings also posts here"
+4020,Change orders,Income,Revenue,Kept apart to show how much of the year came from extras
+4030,Service and small jobs,Income,Revenue,Time and materials work outside a contract
+5010,Direct labor,Cost of sales,Job costs,"Field wages for hours on jobs, matching the labor line of the estimate"
+5020,Materials,Cost of sales,Job costs,Materials bought for a specific job
+5030,Subcontractors,Cost of sales,Job costs,"Sub invoices, gross of retainage held. Collect a W-9 before the first payment"
+5040,Equipment rental and fuel,Cost of sales,Job costs,Rented equipment and fuel used on jobs
+5050,Permits and inspections,Cost of sales,Job costs,
+5060,Dump and disposal,Cost of sales,Job costs,
+6010,Office wages,Expense,Overhead,Office and estimating staff
+6020,Payroll taxes and benefits,Expense,Overhead,Move the field share to 5010 if you want burdened labor in job costs
+6100,Shop and office rent,Expense,Overhead,
+6200,Vehicle costs,Expense,Overhead,"Trucks used across jobs: fuel, repairs, registration"
+6300,Insurance,Expense,Overhead,"General liability, workers' compensation, auto"
+6310,Licensing and bonding,Expense,Overhead,
+6400,Software,Expense,Overhead,"Estimating, project management and accounting"
+6500,Estimating and marketing,Expense,Overhead,
+6600,Small tools,Expense,Overhead,Tools below the capitalization threshold
+6700,Depreciation,Expense,Overhead,
+6800,Interest expense,Expense,Overhead,Interest part of equipment loan payments

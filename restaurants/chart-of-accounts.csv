@@ -1,0 +1,47 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,"Card batches, delivery payouts and most bills"
+1020,Payroll checking,Asset,Bank,Optional. Funded from operating before each pay run
+1030,Cash on hand,Asset,Cash,Registers and safe. Count at close on the last night of the month
+1100,Delivery app payouts receivable,Asset,Receivable,Orders taken by delivery apps and not yet paid out at month end
+1200,Food inventory,Asset,Inventory,Counted at cost on the last night of the month
+1210,Beverage inventory,Asset,Inventory,"Bar and drinks, counted apart from food"
+1300,Prepaid expenses,Asset,Other current asset,"Insurance, licenses and rent paid ahead"
+1500,Kitchen equipment,Asset,Fixed asset,"Ranges, walk-ins and dish machines at cost"
+1510,Furniture and fixtures,Asset,Fixed asset,
+1520,Leasehold improvements,Asset,Fixed asset,"Build-out in a rented space, depreciated over the shorter of the lease or the useful life"
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,"Distributor invoices on terms, entered as bills so the later payment matches"
+2100,Tips payable,Liability,Current liability,"Card tips owed to staff. Credited when the deposit is recorded, cleared through payroll; should fall close to zero each pay period"
+2200,Sales tax payable,Liability,Current liability,"Tax collected on taxable sales, owed to the state. Paying it clears this line; it is not an expense"
+2300,Gift cards outstanding,Liability,Current liability,Cards sold and not yet redeemed. The sale is recorded when the card pays for a meal
+2400,Payroll liabilities,Liability,Current liability,"Withholdings and employer taxes, from the payroll register"
+2500,Business credit card,Liability,Credit card,"Charges on the card; the payment from checking is a transfer, not an expense"
+2600,Equipment loan,Liability,Long-term liability,Split each payment between this line and interest expense
+3010,Owner capital,Equity,Owner equity,Money the owner put in
+3020,Owner draws,Equity,Owner equity,"Money the owner took out, and personal spending on business cards"
+3900,Retained earnings,Equity,Owner equity,Prior years' profit; usually maintained by the software
+4010,Food sales,Income,Sales,Pre-tax food sales from the POS daily total
+4020,Beverage sales,Income,Sales,"Split into liquor, beer and wine children if the bar is a large part of the business"
+4030,Delivery app sales,Income,Sales,"Order subtotals from the payout reports, grossed up for commissions and deductions"
+4040,Catering and private events,Income,Sales,
+4900,Refunds and comps,Income,Contra income,"Refunds, including delivery app refunds for missing items. Carries a debit balance"
+5010,Food cost,Cost of sales,Cost of food and drink,"Food purchases, adjusted each month for the change in food inventory"
+5020,Beverage cost,Cost of sales,Cost of food and drink,"Drink purchases, adjusted each month for the change in beverage inventory"
+5030,To-go packaging,Cost of sales,Cost of food and drink,"Optional, if you track it apart from paper goods"
+6010,Kitchen wages,Expense,Labor,Gross wages from the payroll register
+6020,Front-of-house wages,Expense,Labor,Cash wages paid; tips are not wages here
+6030,Manager salaries,Expense,Labor,
+6040,Payroll taxes and benefits,Expense,Labor,Employer taxes and benefits. Prime cost is 5010 to 5030 plus 6010 to 6040
+6100,Rent,Expense,Occupancy,
+6110,Utilities,Expense,Occupancy,"Gas, electric, water and trash"
+6200,Repairs and maintenance,Expense,Operations,"Hood cleaning, refrigeration and equipment repairs"
+6210,Smallwares,Expense,Operations,"Pans, utensils and glassware below the capitalization threshold"
+6220,Paper and cleaning supplies,Expense,Operations,
+6230,Linen,Expense,Operations,
+6300,Card processing fees,Expense,Fees,Merchant fees from the processor statement
+6310,Delivery app commissions,Expense,Fees,"Commissions from the payout reports, booked once a month by journal entry"
+6400,Marketing,Expense,Sales and marketing,Includes delivery app promotions you agreed to fund
+6500,Insurance,Expense,Administrative,"General liability, liquor liability and property"
+6510,Licenses and permits,Expense,Administrative,"Health permit, liquor license"
+6600,Depreciation,Expense,Administrative,
+6700,Interest expense,Expense,Administrative,Interest part of loan payments

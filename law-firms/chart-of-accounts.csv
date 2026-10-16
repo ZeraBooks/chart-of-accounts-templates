@@ -1,0 +1,36 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,"Earned fees, firm expenses and payroll funding"
+1020,IOLTA trust account,Asset,Bank,Client retainers and settlement funds. Its balance is never the firm's money
+1030,"Client trust account, interest bearing",Asset,Bank,"Optional. A large or long-held sum for one client, with the interest belonging to that client"
+1100,Accounts receivable,Asset,Receivable,Fees billed and earned but not yet paid
+1200,Client costs advanced,Asset,Other current asset,"Filing fees, expert fees and records charges paid for a client and billed back. Clears when the client repays"
+1300,Prepaid expenses,Asset,Other current asset,"Malpractice premium or software paid annually, spread by month"
+1500,Office equipment and computers,Asset,Fixed asset,
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,"Firm bills, paid from operating only"
+2100,Client trust funds,Liability,Current liability,"Every dollar in the trust accounts, owed to clients. Must equal 1020 plus 1030 and the sum of all client ledgers"
+2200,Business credit card,Liability,Credit card,"Firm spending on the card, paid from operating"
+2300,Payroll liabilities,Liability,Current liability,"Withholdings and employer taxes, from the payroll register"
+2400,Line of credit,Liability,Current liability,
+3010,Partner capital: Partner A,Equity,Partner equity,One capital and draw pair per partner. Rename to the partner
+3020,Partner draws: Partner A,Equity,Partner equity,Money taken out by the partner during the year
+3030,Partner capital: Partner B,Equity,Partner equity,
+3040,Partner draws: Partner B,Equity,Partner equity,
+3900,Retained earnings,Equity,Partner equity,Usually allocated to partner capital at year end
+4010,Legal fees: Hourly,Income,Legal fees,"Recorded when earned and moved out of trust, or paid straight to operating"
+4020,Legal fees: Flat fee,Income,Legal fees,"Earned as the engagement letter says, not on receipt unless your state allows it"
+4030,Legal fees: Contingency,Income,Legal fees,The firm's share once a settlement is disbursed from trust
+4900,Interest income,Income,Other income,Operating account interest only. IOLTA interest goes to the state program and is not firm income
+5010,Contract lawyers and paralegals,Cost of sales,Direct costs,"Outside help on client matters, not billed back as a cost"
+5020,Client costs written off,Cost of sales,Direct costs,"Advanced costs the firm decides not to recover, moved out of 1200"
+6010,Staff salaries,Expense,Personnel,Gross wages from the payroll register
+6020,Payroll taxes and benefits,Expense,Personnel,
+6100,Rent,Expense,Occupancy,
+6200,Malpractice insurance,Expense,Professional,Professional liability premiums
+6210,Bar dues and CLE,Expense,Professional,"License fees, bar memberships and continuing legal education"
+6220,Legal research and practice software,Expense,Professional,"Research subscriptions, practice management and e-filing services"
+6300,Merchant fees,Expense,Fees,"Card processing fees, charged to operating, never to trust"
+6310,Bank fees,Expense,Fees,Operating account fees. Trust account fees are set to draw from operating too
+6400,Marketing,Expense,Sales and marketing,
+6500,Office supplies,Expense,Administrative,
+6600,Depreciation,Expense,Administrative,

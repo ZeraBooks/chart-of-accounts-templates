@@ -1,0 +1,49 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,"Gifts, grant payments and online giving payouts land here; most bills are paid from here"
+1020,Reserve savings,Asset,Bank,"Board-designated reserves. A board designation is not a donor restriction, so this money stays without donor restrictions"
+1100,Pledges receivable,Asset,Receivable,"Unconditional promises to give, recorded when the promise is made"
+1110,Grants receivable,Asset,Receivable,Unconditional grants awarded but not yet paid
+1200,Prepaid expenses,Asset,Other current asset,"Insurance and subscriptions paid ahead, spread over the months they cover"
+1300,Donated goods held for distribution,Asset,Other current asset,In-kind goods received at fair value and not yet given out or used
+1500,Furniture and equipment,Asset,Fixed asset,"Items above your capitalization threshold, at cost or at fair value if donated"
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,Bills received and not yet paid
+2100,Accrued payroll,Liability,Current liability,Wages earned by staff and not yet paid at month end
+2200,Payroll liabilities,Liability,Current liability,"Withholdings and employer taxes owed, from the payroll register"
+2300,Refundable advances,Liability,Current liability,Cash received on a conditional grant before the condition is met (ASU 2018-08); moves to contributions when the barrier is cleared
+2400,Deferred event revenue,Liability,Current liability,Tickets sold for an event that has not happened yet
+3010,Net assets without donor restrictions,Equity,Net assets,Opening balance for unrestricted money; includes board-designated reserves
+3020,Net assets with donor restrictions,Equity,Net assets,Opening balance for restricted gifts and grants not yet spent or released
+4010,Contributions without donor restrictions,Income,Contributions,"General gifts, unrestricted grants and the gift part of event tickets"
+4100,Contributions with donor restrictions,Income,Contributions,"Parent line. Post to a child line, never to the parent"
+4110,Contributions with donor restrictions: Example grant A,Income,Contributions,"One child line per restricted grant or purpose. Rename to the grant, such as Adult tutoring grant 2026"
+4120,Contributions with donor restrictions: Example purpose B,Income,Contributions,"A second restricted purpose, such as Summer reading. Add more children as needed"
+4200,Government grants,Income,Grants,Use a child line per award if the agency asks for spending by award
+4300,In-kind contributions,Income,Contributions,"Donated goods and qualifying donated services at fair value, by journal entry. Ordinary volunteer hours are not recorded"
+4400,Special event revenue,Income,Program and event revenue,"The fair value of what attendees received, such as the dinner. The rest of the ticket is a contribution"
+4500,Program service fees,Income,Program and event revenue,"Tuition, fees for services and contract revenue from programs"
+4600,Investment income,Income,Other income,Interest and dividends on reserve and investment accounts
+4910,Net assets released from restriction: with donor restrictions,Income,Releases,Debit side of a release when restricted money is spent on its purpose. Always posted with 4920
+4920,Net assets released from restriction: without donor restrictions,Income,Releases,Credit side of the same release. 4910 and 4920 net to zero in total
+5010,Direct benefits to donors,Cost of sales,Event costs,"The cost of meals, venue and gifts given to event attendees"
+6000,Salaries and wages,Expense,Personnel,Parent line. Post to a function child
+6010,Salaries and wages: Program,Expense,Personnel,Form 990 Part IX column B
+6020,Salaries and wages: Management and general,Expense,Personnel,Form 990 Part IX column C
+6030,Salaries and wages: Fundraising,Expense,Personnel,Form 990 Part IX column D
+6040,Salaries and wages: To allocate,Expense,Personnel,Holding line during the month; the month-end allocation entry brings it to zero using timesheets
+6100,Payroll taxes and benefits,Expense,Personnel,Parent line. Post to a function child
+6110,Payroll taxes and benefits: Program,Expense,Personnel,
+6120,Payroll taxes and benefits: Management and general,Expense,Personnel,
+6130,Payroll taxes and benefits: Fundraising,Expense,Personnel,
+6140,Payroll taxes and benefits: To allocate,Expense,Personnel,Allocated on the same basis as salaries
+6200,Occupancy,Expense,Facilities,Parent line. Post to a function child
+6210,Occupancy: Program,Expense,Facilities,
+6220,Occupancy: Management and general,Expense,Facilities,
+6230,Occupancy: Fundraising,Expense,Facilities,
+6240,Occupancy: To allocate,Expense,Facilities,"Rent and utilities land here, then are split by floor space at month end"
+6300,Program supplies,Expense,Program,Supplies used only in programs. Restricted spending also needs a release (4910 and 4920)
+6400,Professional fees,Expense,Management and general,"Audit, legal and payroll service fees"
+6500,Fundraising costs,Expense,Fundraising,"Mailings, donor database and event marketing"
+6600,Payment processing fees,Expense,Fundraising,"Fees kept by online giving platforms, grossed up from the payout report"
+6700,Insurance,Expense,Management and general,"Directors and officers, general liability"
+6800,Depreciation,Expense,Management and general,Allocate by function if the asset is used mostly in programs
