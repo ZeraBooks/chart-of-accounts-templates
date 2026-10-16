@@ -2,8 +2,9 @@
 
 A law firm's chart of accounts is a normal business chart plus a matched pair:
 the IOLTA trust bank account (an asset) and Client trust funds (a liability for
-the same amount, because every dollar in trust is owed to a client). Add a
-Client costs advanced asset for fees paid on a client's behalf, legal fees
+the same amount, because every dollar in trust is owed to a client).
+
+Add a Client costs advanced asset for fees paid on a client's behalf, legal fees
 split by hourly, flat and contingency, and a capital and draw pair for each
 partner. ZeraBooks' guide to
 [bookkeeping for law firms](https://www.zerabooks.com/bookkeeping-for-law-firms)
@@ -45,3 +46,23 @@ These three figures must agree on the last day of every month:
 
 No client ledger may be negative. Check your own state's version of ABA Model
 Rule 1.15 for record keeping and reconciliation requirements.
+
+## FAQ
+
+### Is money in a law firm's trust account the firm's income?
+
+No. Client money in the trust or IOLTA account belongs to the client until a fee
+is billed and earned. The earned fee is then transferred to operating and
+recorded as revenue there; leaving it in trust is commingling.
+
+### Who gets the interest on an IOLTA account?
+
+The bank pays IOLTA interest to the state's IOLTA program, which funds legal
+aid, so it is never firm income. A large or long-held sum for one client goes in
+its own interest-bearing trust account, and that interest belongs to the client.
+
+### Is bookkeeping for a solo lawyer different from a law firm?
+
+Not in the rules. A solo lawyer holding client money needs the same trust
+account, the same liability and the same monthly three-way reconciliation as a
+large firm; the difference is volume.

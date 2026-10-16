@@ -4,8 +4,10 @@ A restaurant chart of accounts splits sales and costs the way the kitchen and
 bar run: food sales against food cost, beverage sales against beverage cost,
 delivery app sales on their own line with the commissions as an expense, and
 card tips and sales tax as liabilities because they belong to staff and the
-state. With those lines in place, prime cost (food and drink cost plus all
-labor) reads straight off the profit and loss. The worked April in ZeraBooks'
+state.
+
+With those lines in place, prime cost (food and drink cost plus all labor)
+reads straight off the profit and loss. The worked April in ZeraBooks'
 [bookkeeping for restaurants](https://www.zerabooks.com/bookkeeping-for-restaurants)
 guide uses the same structure.
 
@@ -40,3 +42,24 @@ change in inventory once the count is in.
 - 2200 Sales tax payable equals tax collected less tax remitted.
 - 4030 Delivery app sales equals the order subtotals on the payout reports,
   not the deposits.
+
+## FAQ
+
+### How often should a restaurant count inventory?
+
+At least once a month, on the last night, so the month's food cost is real. Many
+kitchens also count their highest-cost items weekly to catch waste and
+over-ordering early, but the books only need the month-end count.
+
+### Is a delivery app commission part of food cost?
+
+No. It is a cost of selling, not of the food, so most restaurants put it in
+operating expenses on its own line. Keeping it out of food cost lets you compare
+what a delivery order earns with a dine-in order.
+
+### Do tips go through a restaurant's books?
+
+Card tips do, because the money passes through your bank account before it
+reaches staff, so they are recorded in Tips payable and cleared when paid out.
+Cash tips handed straight to staff never touch the books, though payroll still
+needs them reported.

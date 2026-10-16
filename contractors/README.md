@@ -3,10 +3,13 @@
 A contractor's chart of accounts should put job costs on the same lines as the
 estimate (direct labor, materials, subcontractors, equipment, permits), so the
 profit and loss reads against the bid. It also needs retainage on both sides
-(receivable from customers, payable to subs) and two month-end lines for
-progress billing that runs ahead of or behind the work: costs and estimated
-earnings in excess of billings (underbilled, an asset) and billings in excess
-of costs and estimated earnings (overbilled, a liability). ZeraBooks' guide to
+and two month-end lines for progress billing that runs ahead of or behind the
+work.
+
+Retainage is receivable from customers and payable to subs. The two billing
+lines are costs and estimated earnings in excess of billings (underbilled, an
+asset) and billings in excess of costs and estimated earnings (overbilled, a
+liability). ZeraBooks' guide to
 [bookkeeping for contractors](https://www.zerabooks.com/bookkeeping-for-contractors)
 shows a retainage entry and a two-job WIP schedule using these lines.
 
@@ -47,3 +50,23 @@ amounts here are illustrative.
 - 1110 falls as jobs close. A balance that keeps growing usually means closeout
   paperwork has stalled.
 - 1200 and 2100 come from this month's WIP schedule, not last month's.
+
+## FAQ
+
+### Are materials a job cost or an expense for a contractor?
+
+Materials bought for a specific job are a job cost. Stock kept in the shop for
+many jobs is inventory or supplies until it goes into one, and small tools and
+consumables used everywhere are usually overhead.
+
+### Is retainage income when you bill it or when you get paid?
+
+On accrual books it is revenue when billed, held in retainage receivable until
+the customer pays. On cash books it counts when the money arrives at closeout.
+Ask your tax preparer which method your business uses for tax.
+
+### Do contractors need to send a 1099-NEC to subcontractors?
+
+For payments made from 2026, yes for any sub that is not a corporation and was
+paid $2,000 or more in the year, under the current IRS instructions. Collect a
+Form W-9 before the first payment so the year-end forms are quick.

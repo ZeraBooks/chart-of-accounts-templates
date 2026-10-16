@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "Chart of accounts templates"
+type: dataset
+authors:
+  - name: "ZeraBooks"
+    website: "https://www.zerabooks.com"
+url: "https://github.com/ZeraBooks/chart-of-accounts-templates"
+repository-code: "https://github.com/ZeraBooks/chart-of-accounts-templates"
+license: CC-BY-4.0
+abstract: "A small business chart of accounts is the numbered list of every account the books post to, grouped by type: assets, liabilities, equity, income, cost of sales and operating expenses. Each industry then adds a few lines of its own, such as a trust account and the matching client liability for a law firm. The CSVs here give that layout for five industries."
+keywords:
+  - accounting
+  - bookkeeping
+  - chart-of-accounts
+  - csv-templates
+  - small-business
+date-released: 2026-10-15

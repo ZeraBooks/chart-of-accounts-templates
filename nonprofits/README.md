@@ -3,9 +3,10 @@
 A small nonprofit needs a business-style chart of accounts with two extra
 splits: income divided by donor restriction (with or without), and expenses
 divided by function (Program, Management and general, Fundraising), so the
-Form 990 Part IX columns come straight from the books. This file sets up both
-splits, plus refundable advances for conditional grants and in-kind
-contributions. ZeraBooks' guide to
+Form 990 Part IX columns come straight from the books.
+
+This file sets up both splits, plus refundable advances for conditional grants
+and in-kind contributions. ZeraBooks' guide to
 [bookkeeping for nonprofits](https://www.zerabooks.com/bookkeeping-for-nonprofits)
 walks a full month of these lines with a fictional literacy charity.
 
@@ -39,3 +40,23 @@ walks a full month of these lines with a fictional literacy charity.
 
 This is a starting point, not tax advice. Your auditor or 990 preparer may ask
 for extra lines, such as a separate line per government award.
+
+## FAQ
+
+### Can a nonprofit use regular bookkeeping software?
+
+A small one can. A general ledger handles restrictions and functions through
+sub-accounts, which works with a handful of grants. Nonprofits with many
+funders, federal grants or an audit requirement usually need fund accounting
+software that carries a fund on every transaction.
+
+### Does a nonprofit chart of accounts give you a statement of functional expenses?
+
+It gives you the numbers. With expenses split by function, the profit and loss
+holds every figure the statement of functional expenses needs, and your preparer
+lays them out in the nonprofit format.
+
+### Do churches need the same chart of accounts?
+
+Mostly. Churches follow much of the same routine but usually think in funds
+rather than grants, and churches do not have to file a Form 990.

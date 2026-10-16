@@ -3,9 +3,10 @@
 A property management company needs two sets of lines kept apart: the company's
 own operating account and income (management fees, leasing fees), and the trust
 account that holds other people's money, matched by two liabilities, owner
-funds held and tenant security deposits held. When the books are right, the
-trust bank balance equals every owner's balance plus every deposit held.
-ZeraBooks' guide to
+funds held and tenant security deposits held.
+
+When the books are right, the trust bank balance equals every owner's balance
+plus every deposit held. ZeraBooks' guide to
 [bookkeeping for property management](https://www.zerabooks.com/bookkeeping-for-property-management)
 works through a month of a 12-unit trust account on this layout.
 
@@ -42,3 +43,25 @@ Before paying owners: trust bank closing balance (after uncleared items) =
 2100 + every child of 2200 + 2300 + 2400. If it doesn't, find the difference
 first. Many states require licensed managers to keep these funds in a separate
 account; check your real estate commission's rules.
+
+## FAQ
+
+### Is a tenant security deposit income?
+
+Not while it may be returned. It is a liability until the lease ends, and only
+the part kept for damage or unpaid rent becomes income then. A deposit that is
+really last month's rent is generally treated as rent when received, so check
+with your tax preparer how your leases are worded.
+
+### Can a property manager pay owners from the operating account?
+
+Owner payments should come from the trust account that holds their money. Paying
+from operating mixes the company's money with the owners' and makes the trust
+reconciliation meaningless, and many states treat it as commingling.
+
+### Do I need a separate bank account for each rental property?
+
+In most places the law does not require one for an owner managing their own
+buildings, though one account per property makes the books simpler. What matters
+is keeping rental money apart from personal money and tracking each property
+separately in the books.
