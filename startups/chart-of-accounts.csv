@@ -1,0 +1,19 @@
+Number,Name,Type,Detail,Notes
+10100,Operating checking,Asset,Bank,The main bank account
+10200,Treasury or high-yield account,Asset,Bank,Raised money held for runway
+12000,Accounts receivable,Asset,Receivable,Invoices customers have not paid
+14000,Prepaid expenses,Asset,Current asset,Annual software and insurance paid upfront
+20100,Company card,Liability,Credit card,Card charges not yet paid
+21000,Accrued expenses,Liability,Current liability,Costs incurred but not yet billed
+24000,Deferred revenue,Liability,Current liability,Annual plans paid upfront and not yet earned
+26000,SAFEs and convertible notes,Liability,Long-term liability,Investor money before a priced round; your CPA decides liability or equity
+30100,Common stock and paid-in capital,Equity,Equity,Founder and priced-round shares
+40100,Subscription revenue,Income,Revenue,Recurring revenue as it is earned
+50100,Hosting and infrastructure,Cost of sales,Cost of revenue,Cloud costs that grow with customers
+60100,Payroll: engineering,Operating expense,Payroll,Wages for the people building the product
+60200,Payroll: sales and operations,Operating expense,Payroll,Everyone else on payroll
+60500,Contractors,Operating expense,Contractors,Freelancers paid on a 1099-NEC
+61000,Software and tools,Operating expense,Software,Monthly subscriptions
+62000,Rent and coworking,Operating expense,Rent,Office or desks
+63000,Legal and accounting,Operating expense,Professional fees,Incorporation, financing documents, the tax return
+80100,Interest income,Other income,Interest,Interest on the treasury account

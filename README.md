@@ -24,6 +24,7 @@ same number ranges.
 | [`restaurants/`](restaurants/) | Food and beverage sales and cost, delivery apps, tips and sales tax held for others | [Bookkeeping for restaurants](https://www.zerabooks.com/bookkeeping-for-restaurants) |
 | [`law-firms/`](law-firms/) | The trust account and the client liability it must equal, legal fees by type | [Bookkeeping for law firms and trust accounts](https://www.zerabooks.com/bookkeeping-for-law-firms) |
 | [`contractors/`](contractors/) | Job costs on the lines you bid, retainage, over and under billings | [Bookkeeping for contractors](https://www.zerabooks.com/bookkeeping-for-contractors) |
+| [`startups/`](startups/) | SAFEs kept out of revenue, deferred revenue, payroll split by team | [Bookkeeping for startups](https://www.zerabooks.com/bookkeeping-for-startups) |
 | [`property-management/`](property-management/) | Trust and operating accounts, owner funds and tenant deposits held | [Bookkeeping for property management](https://www.zerabooks.com/bookkeeping-for-property-management) |
 
 Each folder's README explains the lines that are specific to that industry.
