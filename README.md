@@ -26,6 +26,7 @@ same number ranges.
 | [`contractors/`](contractors/) | Job costs on the lines you bid, retainage, over and under billings | [Bookkeeping for contractors](https://www.zerabooks.com/bookkeeping-for-contractors) |
 | [`startups/`](startups/) | SAFEs kept out of revenue, deferred revenue, payroll split by team | [Bookkeeping for startups](https://www.zerabooks.com/bookkeeping-for-startups) |
 | [`property-management/`](property-management/) | Trust and operating accounts, owner funds and tenant deposits held | [Bookkeeping for property management](https://www.zerabooks.com/bookkeeping-for-property-management) |
+| [`trucking/`](trucking/) | Linehaul, fuel surcharge and accessorial income, per-mile costs, fuel tax payable, optional factoring lines | [Bookkeeping for trucking](https://www.zerabooks.com/bookkeeping-for-trucking) |
 
 Each folder's README explains the lines that are specific to that industry.
 The account names are generic and contain no real company data.

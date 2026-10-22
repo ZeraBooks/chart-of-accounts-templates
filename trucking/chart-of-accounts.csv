@@ -1,0 +1,39 @@
+Number,Name,Type,Detail,Notes
+1010,Operating checking,Asset,Bank,Customer payments and most bills
+1020,Fuel card holding,Asset,Other current asset,Optional. Prepaid fuel card balances if the card is funded ahead
+1100,Accounts receivable,Asset,Receivable,"Freight invoices due now, net of any factoring advance"
+1110,Factoring reserve receivable,Asset,Receivable,"Part of each invoice the factor holds back until the customer pays. Skip if you do not factor"
+1300,Prepaid insurance,Asset,Other current asset,"Liability, cargo and physical damage premiums paid ahead"
+1310,Prepaid permits and plates,Asset,Other current asset,"Annual registration, IFTA and heavy vehicle use fees paid ahead"
+1500,Tractors,Asset,Fixed asset,At cost
+1510,Trailers,Asset,Fixed asset,At cost
+1590,Accumulated depreciation,Asset,Fixed asset,Contra account; carries a credit balance
+2010,Accounts payable,Liability,Payable,"Repair shop, tire and parts invoices"
+2100,Factoring advances,Liability,Current liability,"Cash advanced by the factor against open invoices. Skip if you do not factor"
+2200,Fuel tax payable,Liability,Current liability,"Fuel tax owed or credited on the quarterly fuel tax return, from the mileage report"
+2300,Payroll liabilities,Liability,Current liability,"Withholdings and employer taxes, from the payroll register"
+2310,Driver settlements payable,Liability,Current liability,Pay owed to owner-operators or per-mile drivers for loads delivered but not yet settled
+2400,Business credit card,Liability,Credit card,"The payment from checking is a transfer, not an expense"
+2500,Truck and trailer loans,Liability,Long-term liability,Split each payment between this line and interest expense
+3010,Owner capital,Equity,Owner equity,
+3020,Owner draws,Equity,Owner equity,
+3900,Retained earnings,Equity,Owner equity,
+4010,Linehaul revenue,Income,Revenue,Freight charges for loads delivered
+4020,Fuel surcharge revenue,Income,Revenue,Kept apart from linehaul so you can compare it with fuel cost
+4030,Accessorial revenue,Income,Revenue,"Detention, layover, lumper reimbursements and other extras billed to the customer"
+5010,Fuel,Cost of sales,Operating costs,Diesel and DEF
+5020,Driver pay,Cost of sales,Operating costs,"Employee driver wages, or per-mile pay"
+5030,Owner-operator settlements,Cost of sales,Operating costs,Paid to contractors. Collect a W-9 before the first payment
+5040,Tolls and scales,Cost of sales,Operating costs,
+5050,Repairs and maintenance,Cost of sales,Operating costs,"Parts, labour and shop invoices by unit if you track it"
+5060,Tires,Cost of sales,Operating costs,
+5070,Factoring fees,Cost of sales,Operating costs,Discount charged by the factor on each invoice. Skip if you do not factor
+6010,Office wages,Expense,Overhead,Dispatch and admin staff
+6020,Payroll taxes and benefits,Expense,Overhead,
+6100,Yard or parking rent,Expense,Overhead,
+6300,Insurance,Expense,Overhead,"Liability, cargo, physical damage, workers' compensation"
+6310,Permits licences and plates,Expense,Overhead,"Annual registration, operating authority, heavy vehicle use fees"
+6400,Software and ELD fees,Expense,Overhead,"Electronic logging devices, dispatch and accounting software"
+6500,Payroll and accounting fees,Expense,Overhead,
+6700,Depreciation,Expense,Overhead,
+6800,Interest expense,Expense,Overhead,Interest part of truck and trailer loan payments
