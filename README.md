@@ -22,11 +22,11 @@ same number ranges.
 |---|---|---|
 | [`nonprofits/`](nonprofits/) | Gifts split by donor restriction, expenses split by function for Form 990 Part IX | [Bookkeeping for nonprofits](https://www.zerabooks.com/bookkeeping-for-nonprofits) |
 | [`restaurants/`](restaurants/) | Food and beverage sales and cost, delivery apps, tips and sales tax held for others | [Bookkeeping for restaurants](https://www.zerabooks.com/bookkeeping-for-restaurants) |
-| [`law-firms/`](law-firms/) | The trust account and the client liability it must equal, legal fees by type | [Bookkeeping for law firms and trust accounts](https://www.zerabooks.com/bookkeeping-for-law-firms) |
-| [`contractors/`](contractors/) | Job costs on the lines you bid, retainage, over and under billings | [Bookkeeping for contractors](https://www.zerabooks.com/bookkeeping-for-contractors) |
-| [`startups/`](startups/) | SAFEs kept out of revenue, deferred revenue, payroll split by team | [Bookkeeping for startups](https://www.zerabooks.com/bookkeeping-for-startups) |
-| [`property-management/`](property-management/) | Trust and operating accounts, owner funds and tenant deposits held | [Bookkeeping for property management](https://www.zerabooks.com/bookkeeping-for-property-management) |
-| [`trucking/`](trucking/) | Linehaul, fuel surcharge and accessorial income, per-mile costs, fuel tax payable, optional factoring lines | [Bookkeeping for trucking](https://www.zerabooks.com/bookkeeping-for-trucking) |
+| [`law-firms/`](law-firms/) | The trust account and the client liability it must equal, legal fees by type | Bookkeeping for law firms and trust accounts |
+| [`contractors/`](contractors/) | Job costs on the lines you bid, retainage, over and under billings | Bookkeeping for contractors |
+| [`startups/`](startups/) | SAFEs kept out of revenue, deferred revenue, payroll split by team | Bookkeeping for startups |
+| [`property-management/`](property-management/) | Trust and operating accounts, owner funds and tenant deposits held | Bookkeeping for property management |
+| [`trucking/`](trucking/) | Linehaul, fuel surcharge and accessorial income, per-mile costs, fuel tax payable, optional factoring lines | Bookkeeping for trucking |
 
 Each folder's README explains the lines that are specific to that industry.
 The account names are generic and contain no real company data.
@@ -44,4 +44,4 @@ The account names are generic and contain no real company data.
 The content and data in this repository are licensed under
 [CC BY 4.0](LICENSE). Free to use and adapt with credit to ZeraBooks.
 
-Maintained by [ZeraBooks](https://www.zerabooks.com).
+Maintained by ZeraBooks.
